@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Puthiyathalaimurai indru - புதிய தலைமுறை இன்று</title>
+</head>
+<style type="text/css">
+	.segment{
+		text-align: center;
+	}
+	hr{
+		padding: .5em;
+		border:0px none;
+		background-color: #E5E76B;
+	}
+</style>
+<body>
+<input type="button" value ="Load current issue" onclick="testme()" />
+<p id="magazine">
+</p>
+
+<script type="text/javascript">
+
+var curPage = 1;
+var curSeg = 1;
+
+var segments = {};
+var imgprefix = 'http://www.puthiyathalaimurai.tv/magni/paper_page';
+
+var i = 0;
+
+function loadNews(page, seg){
+	curPage = page;
+	curSeg = seg;
+	imgresize = 85;
+	
+	i++;
+
+	cimg = imgprefix + page + '_' + seg + '.jpg';
+	if (i>15) {return;};
+
+	console.log("loadNews page:" + page + " segment:"+seg);
+	var img = new Image();
+	img.src = cimg;
+	img.onerror = function(){
+		document.getElementById('magazine').innerHTML += '<hr />';
+		loadNews(++page, 1);
+	}
+
+	img.onload = function(){
+		loadNews(page, ++seg);
+		document.getElementById('magazine').innerHTML += '<div class="segment"><img src="' + img.src + '" width="'+ img.width * imgresize / 100+'" height="'+img.height * imgresize / 100+'" /></div>';
+	}
+
+}
+
+	function testme () {
+		loadNews(1,1);
+	}
+
+
+</script>
+</body>
+</html>
