@@ -26,15 +26,22 @@ var curSeg = 1;
 var segments = {};
 var imgprefix = 'http://www.puthiyathalaimurai.tv/magni/paper_page';
 
+function getFormattedDate() {
+    var date = new Date();
+    var concatStr = '.';
+    var str = date.getDate() + concatStr + date.getMonth()+1 + concatStr + date.getFullYear() + concatStr +  date.getHours() + concatStr + date.getMinutes() + concatStr + date.getSeconds();
+
+    return str;
+}
 
 function loadNews(page, seg){
         curPage = page;
         curSeg = seg;
         imgresize = 85;
 
-        cimg = imgprefix + page + '_' + seg + '.jpg';
+        cimg = imgprefix + page + '_' + seg + '.jpg?time=' + getFormattedDate();
 
-        console.log("loadNews page:" + page + " segment:"+seg);
+        // console.log("loadNews page:" + page + " segment:"+seg);
         var img = new Image();
         img.src = cimg;
         img.onerror = function(){
@@ -55,6 +62,7 @@ function loadNews(page, seg){
         function testme () {
                 loadNews(1,1);
         }
+
 
 
 </script>
