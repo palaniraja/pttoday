@@ -3,7 +3,7 @@ pttoday (Paper)
 
 It is very rare I follow local news. But I usually have a phase where I interested in news for about a week. And everytime, I tried to read online daily news from my region, I always hate their website. 
 
-There are about only couple of CMS sold to every news organizations. And they all suck, very old technology like people still require flash to be installed to read their news paper. And the layout is always a mess. Remember [Flipboard] (https://en.wikipedia.org/wiki/Flipboard) has been release in Jul'2010 and still the local newspapers layouts are mess.
+There are about only few variety of CMS sold to every news organizations. And they all suck, very old technology like people still require flash to be installed to read their news paper. And the layout is always a mess. Remember [Flipboard] (https://en.wikipedia.org/wiki/Flipboard) has been released in Jul'2010 and still the local newspapers layouts are mess.
 
 After in about two days I start to check their backend from the page navigations and wondered if someone can build a nicer/easier way to read the news. And this happens **everytime**.
 
