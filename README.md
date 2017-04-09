@@ -19,12 +19,7 @@ React Native based android app which lets you browse their _daily_.
 
 [![Android app demo](https://img.youtube.com/vi/A2Z24uHMNVA/0.jpg)](https://www.youtube.com/watch?v=A2Z24uHMNVA)
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A2Z24uHMNVA" frameborder="0" allowfullscreen></iframe>
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/palaniraja)
-
-[Download APK](https://goo.gl/xNgkAJ ) 
+[Download APK](https://goo.gl/xNgkAJ )  [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/palaniraja)
 
 ---
 
