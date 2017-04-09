@@ -9,24 +9,11 @@ After in about two days I start to check their backend from the page navigations
 
 I'm grouping this project to list all my related stuff
 
-
 ---
-####27-Jan-2014
+#### 07-Feb-2017
+### Dinakaran - தினகரன்
 
-
-###புதிய தலைமுறை இன்று
-
-http://palaniraja.com/pttoday
-
-A simple HTML page to list all their high-res jpg images of their _daily_ in one page; without any Flash plugin so you can read from mobile. 
-
-**Update (2017):** This project does **not** work anymore, as those pages require a signin. And I don't follow them anymore. 
-
----
-####07-Feb-2017
-###Dinakaran - தினகரன்
-
-React Native based android app which lets you browse their _daiy_.
+React Native based android app which lets you browse their _daily_.
 
 ## Demo (video):
 
@@ -35,7 +22,9 @@ React Native based android app which lets you browse their _daiy_.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A2Z24uHMNVA" frameborder="0" allowfullscreen></iframe>
 
-[Download APK](https://goo.gl/xNgkAJ )
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/palaniraja)
+
+[Download APK](https://goo.gl/xNgkAJ ) 
 
 ---
 
@@ -43,3 +32,18 @@ React Native based android app which lets you browse their _daiy_.
 ### Dinamalar
 
 <a href="http://www.palaniraja.com/pttoday/dinamalar.html"/> Dinamalar </a>
+---
+
+
+#### 27-Jan-2014
+
+
+### புதிய தலைமுறை இன்று
+
+http://palaniraja.com/pttoday
+
+A simple HTML page to list all their high-res jpg images of their _daily_ in one page; without any Flash plugin so you can read from mobile. 
+
+**Update (2017):** This project does **not** work anymore, as those pages require a signin. And I don't follow them anymore. 
+
+
